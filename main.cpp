@@ -48,6 +48,7 @@ int eval(std::string expr)
             }
             stack.push(sum);
             cout << "SUM IS " << sum << "\n";
+            return sum;
         }
         /* The code below is to figure out when the digits should be concatenated into a number */
         if (ch == ' ' && digits > 0)
@@ -75,8 +76,7 @@ int eval(std::string expr)
             digits++;
         }
     }
-
-    return sum;
+    return 0;
 }
 
 /* the value of 'expr' is what should be altered by the calculator as this is the string to be calculated */
@@ -87,7 +87,6 @@ int main()
     cout << "Type a sum in RPN format: ";
     std::getline(std::cin, expr);
     cout << "\n";
-    cout << expr;
     int result = eval(expr);
     cout << result << "\n";
     system("pause");
