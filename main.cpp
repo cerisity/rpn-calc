@@ -26,11 +26,14 @@ int eval(std::string expr)
         {
             // DEBUGGING CODE:
             cout << "OPERATOR FOUND: " << ch << "\n";
+
             int int2 = stack.pop();
             int int1 = stack.pop();
+
             // DEBUGGING CODE:
             cout << "INT 1 IS " << int1 << "\n";
             cout << "INT 2 IS " << int2 << "\n";
+
             switch (ch)
             {
             case '+':
@@ -72,6 +75,7 @@ int eval(std::string expr)
         {
             // DEBUGGING CODE:
             cout << "NUMBER FOUND: " << ch << "\n";
+
             stack.push(atoi(&ch));
             digits++;
         }
