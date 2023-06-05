@@ -5,3 +5,5 @@ The program can be run by running a.exe, or you can recompile it yourself I don'
 
 The debug code is uncommented by default, this is so that you can see how the calculator is working
 You can find the debug lines (they are signposted) and add comments infront of them to remove this
+
+Unfortunately the input can only take 2 numbers as of now, I may expand this in the future
