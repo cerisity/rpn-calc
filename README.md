@@ -5,3 +5,5 @@ The program can be run by running a.exe, or you can recompile it yourself if you
 
 The debug code is uncommented by default, this is so that you can see how the calculator is working
 You can find the debug lines (they are signposted) and add comments infront of them to remove this
+
+- This was initially made in 2021 for university, I just decided to upload it here so that I dont lose it
